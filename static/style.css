@@ -1,0 +1,17 @@
+
+.wrapper {
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+.cap a h1{
+    color:black;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.cap h1:hover{
+    color:skyblue;
+    text-decoration: none;
+}

@@ -1,0 +1,8 @@
+{% extends 'index.html'%}
+
+{%block content %}
+<h1>title</h1>
+<h1 style="margin-top:60px;">{{object.title}}</h1>
+<img src="{{object.featured_image.url}}" width=615, height =410>
+<p>{{object.content|safe}}</p>
+{% endblock %}
